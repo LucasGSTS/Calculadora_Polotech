@@ -1,4 +1,4 @@
-<h1 align="center"> Calculadora simples </h1>
+<h1 align="center"> Calculadora Polotech Pib </h1>
 
 <p align="center">
 Calculadora desenvolvida no curso de logica de programação do projeto Polotech PIB.
