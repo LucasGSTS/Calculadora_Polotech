@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>
+        <div class="calculator">
+
+            <h1 id="titulo">CALCULADORA</h1>
+
+        <h1>Selecione o primeiro numero:</h1>
+
+        <button class="operator" onclick="pv1(1)">1</button>
+        <button class="operator" onclick="pv1(2)">2</button>
+        <button class="operator" onclick="pv1(3)">3</button>
+        <button class="operator" onclick="pv1(4)">4</button>
+        <button class="operator" onclick="pv1(5)">5</button>
+        <button class="operator" onclick="pv1(6)">6</button>
+        <button class="operator" onclick="pv1(7)">7</button>
+        <button class="operator" onclick="pv1(8)">8</button>
+        <button class="operator" onclick="pv1(9)">9</button>
+    
+        <div id="n1">Valor clicado: </div>
+
+        <h1>Selecione o segundo numero:</h1>
+
+        <button class="operator" onclick="pv2(1)">1</button>
+        <button class="operator" onclick="pv2(2)">2</button>
+        <button class="operator" onclick="pv2(3)">3</button>
+        <button class="operator" onclick="pv2(4)">4</button>
+        <button class="operator" onclick="pv2(5)">5</button>
+        <button class="operator" onclick="pv2(6)">6</button>
+        <button class="operator" onclick="pv2(7)">7</button>
+        <button class="operator" onclick="pv2(8)">8</button>
+        <button class="operator" onclick="pv2(9)">9</button>
+    
+        <div id="n2">Valor clicado: </div>
+
+        <h1>Selecione a operação desejada:</h1>
+
+        <button class="operator" onclick="conta('+')">+</button>
+        <button class="operator" onclick="conta('-')">-</button>
+        <button class="operator" onclick="conta('/')">/</button>
+        <button class="operator" onclick="conta('*')">*</button>
+
+        <div id="op">A operação é: </div>
+
+        <h1>Clique para calcular</h1>
+        <button class="operator" onclick="calcular()">=</button>   
+
+        <h1>O resultado da sua operação é:</h1>
+
+        <div id="resultado">...</div>
+
+    </div>
+        <script src="script.js"></script>
+    </body>
+</html>
